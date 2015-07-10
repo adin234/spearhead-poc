@@ -1,0 +1,20 @@
+a.remove {
+	margin-left: 5px;
+}
+
+tr a.add {
+	display: none;
+}
+
+tr:last-of-type a.add {
+	display: initial;
+	margin-left: 5px;
+}
+
+tr:last-of-type a.remove {
+	display: none;
+}
+
+tr td {
+	text-align: center;
+}

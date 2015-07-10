@@ -1,0 +1,45 @@
+html
+	head
+		link(rel='stylesheet', href='/assets/dist/lib.css')
+		link(rel='stylesheet', href='/assets/dist/timesheets.css')
+	body
+
+		div.container
+			div.row
+				h3 #{firstname} #{lastname}
+			div.row
+				form(method="POST")
+					table.table.table-striped.table-compressed
+						thead
+							tr
+								td Start
+								td End
+						tbody
+							tr.entry
+								td 
+									input.datetime(name='start[]')
+								td 
+									input.datetime(name='end[]')
+								td.actions
+									a.add(href='#')
+										i.fa.fa-plus-square
+									a.remove(href='#')
+										i.fa.fa-minus-square
+							tr.entry
+								td 
+									input.datetime(name='start[]')
+								td 
+									input.datetime(name='end[]')
+								td.actions
+									a.add(href='#')
+										i.fa.fa-plus-square
+									a.remove(href='#')
+										i.fa.fa-minus-square
+						tfoot
+							tr
+								td(colspan=2)
+								td
+									button.save.btn.btn-primary Save
+
+		script(type='text/javascript', src='/assets/dist/lib.js')
+		script(type='text/javascript', src='/assets/dist/timesheets.js')

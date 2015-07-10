@@ -1,0 +1,23 @@
+{
+  "name": "views",
+  "version": "0.0.0",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "~0.3.0",
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4",
+    "momentjs": "~2.10.3",
+    "bootstrap-material-datetimepicker": "*",
+    "fontawesome": "~4.3.0"
+  }
+}
